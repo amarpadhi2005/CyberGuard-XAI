@@ -1,0 +1,52 @@
+name: cyberguard_xai
+description: "CyberGuard XAI - Real-time AI Cybersecurity Assistant"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase Core & Auth
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.7.0
+  cloud_firestore: ^5.0.1
+  firebase_storage: ^12.1.0
+  firebase_messaging: ^15.0.1
+
+  # Supabase Client
+  supabase_flutter: ^2.8.0
+
+  # Google Sign-In
+  google_sign_in: ^6.2.1
+
+  # Secure Storage & Persistence
+  flutter_secure_storage: ^9.2.2
+  shared_preferences: ^2.2.3
+
+  # State Management & Service Locator
+  provider: ^6.1.2
+
+  # Modern UI, Fonts & Glassmorphism
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10+1
+
+  # Networking & Cryptography
+  http: ^1.2.1
+  crypto: ^3.0.3
+
+  # Date and Formatting
+  intl: ^0.19.0
+  mobile_scanner: ^7.4.2
+  permission_handler: ^13.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
